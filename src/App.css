@@ -13,12 +13,12 @@
   }
 }
 
-.App-header {
+header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(1fr,400px);
+  grid-gap: 50px;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -27,6 +27,7 @@
 .App-link {
   color: #61dafb;
 }
+
 
 @keyframes App-logo-spin {
   from {
